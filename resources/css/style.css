@@ -57,10 +57,11 @@ body {
 
 #mission > div {
     background-color: black;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    margin: 0 auto;
     text-align: center;
     width: 1200px;
+    top: 50%;
 }
 
 #featured-tea {
@@ -81,4 +82,40 @@ body {
     margin: 10px;
 }
 
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.location-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations > h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-location {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+    text-align: center;
+}
+
 /* PARTE DE ABAJO */
+
+#contact {
+    text-align: center;
+}
+
+#copyright > p {
+    text-align: left;
+    margin-left: 20px;
+}
